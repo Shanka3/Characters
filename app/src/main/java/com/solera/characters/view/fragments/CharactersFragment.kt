@@ -88,6 +88,6 @@ class CharactersFragment : Fragment() {
             }
             isLoading = false
             progressBar.visibility = View.GONE
-        }, 5000)
+        }, 5)
     }
 }

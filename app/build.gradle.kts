@@ -16,7 +16,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "com.solera.characters.MyTestRunner"
+      //  testInstrumentationRunner = "com.solera.characters.MyTestRunner"
     }
 
 
@@ -68,10 +68,14 @@ dependencies {
     //hilt
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-compiler:2.44")
-    testImplementation("com.google.dagger:hilt-android-testing:2.44")
-    kaptTest("com.google.dagger:hilt-android-compiler:2.44")
-    androidTestImplementation("com.google.dagger:hilt-android-testing:2.44")
-    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.44")
+
+    //mock
+    testImplementation("com.squareup.okhttp3:okhttp:4.9.3")
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")
+    testImplementation("com.squareup.retrofit2:retrofit-mock:2.9.0")
+    testImplementation("org.mockito:mockito-core:3.12.4")
+
+
 
 
 

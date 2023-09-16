@@ -70,10 +70,7 @@ dependencies {
     kapt("com.google.dagger:hilt-compiler:2.44")
 
     //mock
-    testImplementation("com.squareup.okhttp3:okhttp:4.9.3")
     testImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")
-    testImplementation("com.squareup.retrofit2:retrofit-mock:2.9.0")
-    testImplementation("org.mockito:mockito-core:3.12.4")
 
 
 
